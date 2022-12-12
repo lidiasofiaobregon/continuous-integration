@@ -3,6 +3,8 @@
        npm install remark-cli remark-preset-lint-consistent
        npx remark . --use remark-preset-lint-consistent --frail
 
+_underscore_
+
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
